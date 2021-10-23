@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ChatID to Members API"
+version = "0.0.1"
+description = "A REST API to get chat members of a telegram chat by chat_id"
+authors = ["Harsh Navdhare <navdhareharsh2001@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.6"
+Telethon = "1.23.0"
+fastapi = "0.70.0"
+uvicorn = "^0.15.0"
+ujson = "^4.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
